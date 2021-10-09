@@ -1,3 +1,236 @@
 {{ define "home_page" }}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/static/css/iconsfont.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" href="/static/image/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,160&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>SAOM | Главная</title>
+</head>
+<body>
+
+<div id="load" class="load">
+    <div class="intro">
+
+
+        <p id="example3">Добро пожаловать на Бета-Тест сайта сервера по майкнрафту.<BR>
+            <strong>SWORD ART ONLINE.</strong>
+        </p>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+
+
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script>
+    $(window).on('load', function () {
+        $('#load').delay(6100).fadeOut('slow');
+
+        $('#example3').typeIt({
+            strings: [""],
+            speed: 50,
+            autoStart: false
+        });
+    });
+
+</script>
+
+
+<div class="nav_menu">
+    <div class="container" id="container">
+        <div class="menu">
+
+            <!--Hover effect user use mouse and out-->
+
+            <a class="btn_one"  id="btn_one" href="#">
+                <img onmouseover="this.src='/static/image/user_hover.png'"
+                     onmouseout="this.src='/static/image/user.png'" src="/static/image/user.png" alt=""></a>
+
+
+            <!--Left open panel-->
+            <a id="panelo"><img class="left_panel" src="/static/image/panel 1.png"></a>
+
+            <!--Right open panel-->
+            <img class="right_panel" id="panelt" src="/static/image/indicator 1.png" alt="">
+            <!--slide-->
+            <div class="slide" id="panelth">
+                <img onmouseover="this.src='/static/image/list_hover 1.png'"
+                     onmouseout="this.src='/static/image/list_normal 1.png'" src="/static/image/list_normal 1.png" alt=""><br>
+                <img onmouseover="this.src='/static/image/list_hover 2.png'"
+                     onmouseout="this.src='/static/image/list_normal 2.png'" src="/static/image/list_normal 2.png" alt=""><br>
+                <img onmouseover="this.src='/static/image/list_hover 3.png'"
+                     onmouseout="this.src='/static/image/list_normal 3.png'" src="/static/image/list_normal 3.png" alt=""><br>
+            </div>
+
+
+            <!--hover effects party use mouse and out-->
+            <a class="btn_two"  href="#" id="btn_two"><img onmouseover="this.src='/static/image/party_hover.png'"
+                                                           onmouseout="this.src='/static/image/party.png'" src="/static/image/party.png" alt=""></a>
+
+            <!--slide-->
+            <img class="indicator_one" id="indicator" src="/static/image/indicator 1.png" alt="">
+            <!--Open party panel-->
+            <div class="slide_party" id="slide">
+                <img onmouseover="this.src='/static/image/list_hover 1.png'"
+                     onmouseout="this.src='/static/image/list_normal 1.png'" src="/static/image/list_normal 1.png" alt=""><br>
+                <img onmouseover="this.src='/static/image/list_hover 2.png'"
+                     onmouseout="this.src='/static/image/list_normal 2.png'" src="/static/image/list_normal 2.png" alt=""><br>
+                <img onmouseover="this.src='/static/image/list_hover 3.png'"
+                     onmouseout="this.src='/static/image/list_normal 3.png'" src="/static/image/list_normal 3.png" alt=""><br>
+            </div>
+
+
+            <!--Hover effects message use mouse and out-->
+            <a href="#" class="btn_three" id="btn_three"><img onmouseover="this.src='/static/image/message_hover.png'"
+                                                              onmouseout="this.src='/static/image/message.png'" src="/static/image/message.png" alt=""></a>
+
+            <div class="message" id="container_message">
+                <!--Open panel message chan-->
+                <img class="chat" src="/static/image/message 1.png" alt="">
+                <!--Here button accept or close-->
+                <a class="btn_accept" id="accept"> <img onmouseover="this.src='/static/image/ok_hover.png'"
+                                                        onmouseout="this.src='/static/image/ok_normal.png'" src="/static/image/ok_normal.png" alt=""></a>
+                <a class="btn_close" id="close"><img onmouseover="this.src='/static/image/cancel_hover.png'" onmouseout="this.src='/static/image/cancel_normal.png'" src="/static/image/cancel_normal.png" alt=""></a>
+            </div>
+
+            <!--Hover effects map use mouse and out-->
+            <a href="#" class="btn_thour" id="btn_four"><img onmouseover="this.src='/static/image/map_hover.png'"
+                                                             onmouseout="this.src='/static/image/map.png'" src="/static/image/map.png" alt=""></a>
+
+            <!--Open map-->
+            <!--slide-->
+            <img class="indicator_two" id="indicatort" src="/static/image/indicator 1.png" alt="">
+            <!--Open party panel-->
+            <div class="slide_party_one" id="slideo">
+                <img onmouseover="this.src='main/image/list_hover 1.png'"
+                     onmouseout="this.src='main/image/list_normal 1.png'" src="/static/image/list_normal 1.png" alt=""><br>
+                <img onmouseover="this.src='main/image/list_hover 2.png'"
+                     onmouseout="this.src='main/image/list_normal 2.png'" src="/static/image/list_normal 2.png" alt=""><br>
+                <img onmouseover="this.src='main/image/list_hover 3.png'"
+                     onmouseout="this.src='main/image/list_normal 3.png'" src="/static/image/list_normal 3.png" alt=""><br>
+            </div>
+
+            <!--Hover effects settings use mouse and out-->
+            <a href="#" class="btn_five" id="btn_five"><img onmouseover="this.src='main/image/settings_hover.png'"
+                                                            onmouseout="this.src='main/image/settings.png'" src="/static/image/settings.png" alt=""></a>
+
+            <!--Open panel settings-->
+            <!--slide-->
+            <img class="indicator_three" id="indicatorth" src="/static/image/indicator 1.png" alt="">
+            <!--Open party panel-->
+            <div class="slide_party_three" id="slideth">
+                <img onmouseover="this.src='/static/image/list_hover 1.png'"
+                     onmouseout="this.src='/static/image/list_normal 1.png'" src="/static/image/list_normal 1.png" alt=""><br>
+                <img onmouseover="this.src='/static/image/list_hover 2.png'"
+                     onmouseout="this.src='/static/image/list_normal 2.png'" src="/static/image/list_normal 2.png" alt=""><br>
+                <img onmouseover="this.src='/static/image/list_hover 3.png'"
+                     onmouseout="this.src='/static/image/list_normal 3.png'" src="/static/image/list_normal 3.png" alt=""><br>
+            </div>
+
+
+            <!--Комментарии можешь удалять, всё равно основа у меня, у себя редачю-->
+
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+
+<script>
+    document.addEventListener('keyup', function(){
+        if (event.keyCode == 36){
+            $( "#container" ).stop().toggle();
+            $('#btn_one').on('click',() => {
+                $('#panelo').stop().toggle();
+                $('#panelt').stop().toggle();
+                $('#panelth').stop().toggle();
+
+                $('#indicator').hide();
+                $('#slide').hide();
+                return false;
+            });
+            $('#btn_two').on('click',() => {
+                $('#indicator').stop().toggle();
+                $('#slide').stop().toggle();
+
+                $('#panelo').hide();
+                $('#panelt').hide();
+                $('#panelth').hide();
+                $('#container_message').hide();
+                $('#accept').hide();
+                $('#close').hide();
+                return false;
+            });
+            $('#btn_three').on('click',() => {
+                $('#container_message').stop().toggle();
+                $('#accept').stop().toggle();
+                $('#close').stop().toggle();
+
+                $('#panelo').hide();
+                $('#panelt').hide();
+                $('#panelth').hide();
+                $('#indicator').hide();
+                $('#slide').hide();
+                $('#slideo').hide();
+                $('#indicatort').hide();
+                return false;
+            });
+            $('#btn_four').on('click',() => {
+                $('#slideo').stop().toggle();
+                $('#indicatort').stop().toggle();
+
+                $('#panelo').hide();
+                $('#panelt').hide();
+                $('#panelth').hide();
+                $('#indicator').hide();
+                $('#slide').hide();
+                $('#container_message').hide();
+                $('#accept').hide();
+                $('#close').hide();
+                $('#indicatorth').hide();
+                $('#slideth').hide();
+                return false;
+            });
+            $('#btn_five').on('click',() => {
+                $('#indicatorth').stop().toggle();
+                $('#slideth').stop().toggle();
+
+                $('#panelo').hide();
+                $('#panelt').hide();
+                $('#panelth').hide();
+                $('#indicator').hide();
+                $('#slide').hide();
+                $('#container_message').hide();
+                $('#accept').hide();
+                $('#close').hide();
+                $('#slideo').hide();
+                $('#indicatort').hide();
+                return false;
+            });
+
+
+            var element = document.querySelector('.container');
+            window.addEventListener('mousemove', function(e) {
+                var x = e.clientX / window.innerWidth;
+                var y = e.clientY / window.innerHeight;
+                element.style.transform = 'translate(-' + x * 100 + 'px, -' + y * 100 + 'px)';
+            });
+        }
+    });
+
+</script>
+</body>
+</html>
+
+
 
 {{ end }}

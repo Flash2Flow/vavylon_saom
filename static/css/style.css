@@ -1,0 +1,307 @@
+body{
+  margin: 0;
+  padding: 0;
+
+  background-color: #E5E5E5;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+
+
+.container{
+  width: 1550px;
+  margin: 0 auto;
+display: none;
+    z-index: 2;
+
+}
+
+@keyframes showNekit {
+
+from {margin-top:-100%;}
+
+to {margin-top:0;}
+
+}
+
+
+
+
+/*btn*/
+
+.btn_one{
+   width: 64px;
+   height: 64px;
+
+   position: absolute;
+
+   top: 240px;
+   right: 0;
+   left: 0;
+
+   margin: auto;
+   background-color: none;
+
+   transition: .2s linear;
+
+   cursor: pointer;
+   animation: showNekit 0.9s;
+
+   z-index: 1;
+}
+
+.slide{
+  position: absolute;
+      margin-left: 820px;
+      margin-top: 201px;
+}
+
+.slide_party{
+  position: absolute;
+    top: 271px;
+    left: 822px;
+}
+
+.indicator_two{
+  position: absolute;
+    top: 414px;
+    left: 816px;
+}
+
+.slide_party_one{
+  position: absolute;
+    top: 410px;
+    left: 822px;
+}
+
+.indicator_one{
+  position: absolute;
+top: 275px;
+left: 816px
+}
+
+.btn_accept{
+  position: absolute;
+top: 178px;
+right: 1530px;
+}
+
+#panel{
+  display: none;
+}
+
+#panelo{
+  display: none;
+}
+
+#panel2o{
+    display: none;
+}
+
+#panelt{
+  display: none;
+}
+
+panelt:target{
+  display: flex;
+}
+
+#panelth{
+  display: none;
+}
+
+#indicator{
+  display: none;
+}
+
+#slide{
+  display: none;
+}
+
+#_message{
+  display: none;
+}
+
+#accept{
+  display: none;
+}
+
+#close{
+  display: none;
+}
+
+#slideo{
+  display: none;
+}
+
+#indicatort{
+  display: none;
+}
+
+#indicatorth{
+  display: none;
+}
+
+#slideth{
+  display: none;
+}
+
+.indicator_three{
+  position: absolute;
+  top: 485px;
+  left: 816px;
+}
+
+.slide_party_three{
+  position: absolute;
+      top: 481px;
+      left: 822px;
+
+}
+
+.message{
+  display: none;
+}
+
+.btn_close{
+  position: absolute;
+  top: 178px;
+  right: 1340px;
+}
+
+.right_panel{
+  position: absolute;
+  top: 204px;
+  left: 816px;
+}
+
+.left_panel{
+  position: absolute;
+  margin-left: 470px;
+margin-top: 55px;
+}
+
+.btn_two{
+   width: 64px;
+   height: 64px;
+
+   position: absolute;
+
+   top: 310px;
+   right: 0;
+   left: 0;
+
+   margin: auto;
+   background-color: none;
+
+   transition: .2s linear;
+
+   cursor: pointer;
+   animation: showNekit 0.8s;
+
+   z-index: 1;
+}
+
+
+.btn_three{
+   width: 64px;
+   height: 64px;
+
+   position: absolute;
+
+   top: 380px;
+   right: 0;
+   left: 0;
+
+   margin: auto;
+   background-color: none;
+
+   transition: .2s linear;
+
+   cursor: pointer;
+   animation: showNekit 0.7s;
+
+   z-index: 1;
+}
+
+
+
+.btn_thour{
+   width: 64px;
+   height: 64px;
+
+   position: absolute;
+
+   top: 450px;
+   right: 0;
+   left: 0;
+
+   margin: auto;
+   background-color: none;
+
+   transition: .2s linear;
+
+   cursor: pointer;
+   animation: showNekit 0.6s;
+
+   z-index: 1;
+}
+
+
+.btn_five{
+   width: 64px;
+   height: 64px;
+
+   position: absolute;
+
+   top: 520px;
+   right: 0;
+   left: 0;
+
+   margin: auto;
+   background-color: none;
+
+   transition: .2s linear;
+
+   cursor: pointer;
+   animation: showNekit 0.5s;
+
+   z-index: 1;
+}
+
+p{
+  margin: 15px;
+  padding: 15px;
+}
+
+.load{
+  margin: 0;
+  position: absolute;
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+#load div{
+
+  text-align:center;
+}
+
+#load div p{
+  text-align: center;
+  padding: 10px;
+    color:black;
+}
+
+.intro{
+
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300px;
+  margin-top: 300px;
+}
