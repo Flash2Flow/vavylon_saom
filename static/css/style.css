@@ -53,6 +53,12 @@ to {margin-top:0;}
    z-index: 1;
 }
 
+.info{
+  position: absolute;
+    top: 120px;
+    left: 498px;
+}
+
 .slide{
   position: absolute;
       margin-left: 820px;
